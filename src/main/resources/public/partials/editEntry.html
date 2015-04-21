@@ -25,23 +25,23 @@
 				<form>
 					<div class="form-group">
 						<label for="timeEntryId">ID:</label>
-						<input type="text" id="timeEntryId" class="form-control" ng-model="entry.timeEntryId" value="{{entry.timeEntryId}}" readonly="true"/>
+						<input type="text" id="timeEntryId" class="form-control" ng-model="entry.timeEntryId" value="{{entry.timeEntryId}}" readonly="readonly"/>
 					</div>
 					<div class="form-group">
 						<label for="feName">FE Name:</label>
-						<input type="text" id="feName" class="form-control" ng-model="entry.feName" value="{{entry.feName}}" placeholder="FE Name" required="true"/>
+						<input type="text" id="feName" class="form-control" ng-model="entry.feName" value="{{entry.feName}}" placeholder="FE Name" required="required"/>
 					</div>
 					<div class="form-group">
 						<label for="accountName">Account Name:</label>
-						<input type="text" id="accountName" class="form-control" ng-model="entry.accountName" value="{{entry.accountName}}" placeholder="Account Name" required="true"/>
+						<input type="text" id="accountName" class="form-control" ng-model="entry.accountName" value="{{entry.accountName}}" placeholder="Account Name" required="required"/>
 					</div>
 					<div class="form-group">
 						<label for="date">Date:</label>
-						<input type="text" id="date" class="form-control" ng-model="entry.date" value="{{dateToDisplay}}" placeholder="Date" required="true"/>
+						<input type="text" id="date" class="form-control" ng-model="entry.date" value="{{dateToDisplay}}" placeholder="Date" required="required"/>
 					</div>
 					<div class="form-group">
 						<label for="hours">Hours:</label>
-						<input type="number" id="hours" class="form-control" ng-model="entry.hours" value="{{entry.hours}}" placeholder="Hours" required="true"/>
+						<input type="number" id="hours" class="form-control" ng-model="entry.hours" value="{{entry.hours}}" placeholder="Hours" required="required"/>
 					</div>
 					<div class="well">
 						<input type="submit" ng-click="update(entry)" class="btn btn-primary" value="Save"/>
